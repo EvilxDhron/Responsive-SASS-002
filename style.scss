@@ -360,8 +360,14 @@ header {
   .sec3-container {
     @include center;
     flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
+
     .sec3-part1 {
+      @include center;
+      flex-direction: column;
+      align-items: flex-start;
+
       h2 {
         font-family: "Syne", sans-serif;
         font-size: 2.5rem;
@@ -370,24 +376,45 @@ header {
         line-height: 1;
         margin-bottom: 1.2rem;
       }
+
       p {
         color: grey;
+        font-size: 1.2rem;
       }
     }
-  }
-  .line {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-  }
+    .sec3-part2 {
+      .card1 {
+        @include center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.7rem;
 
-  .sec-part2 {
-    .card1 {
-      video {
-        width: 100%;
-        object-fit: cover;
-        border-radius: 30px;
+        h3{
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+
+        .vid {
+          width: 100%;
+          aspect-ratio: 1.515/1;
+          background: #000;
+          overflow: hidden;
+          border-radius: 20px;
+          margin-bottom: 10px;
+
+          video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
       }
     }
   }
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
 }
