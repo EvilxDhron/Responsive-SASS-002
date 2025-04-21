@@ -383,34 +383,74 @@ header {
       }
     }
     .sec3-part2 {
-      @include center;
-      flex-wrap: wrap;
-      flex-shrink: 0;
-      gap: 2rem;
-
-      .card {
+      .sec3-cards {
         @include center;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
+        gap: 1.5rem;
 
-        h3{
-          font-size: 1.5rem;
-          font-weight: 400;
+        .card-div-part1 {
+          @include center;
+          flex-direction: column;
+          gap: 1.5rem;
+
+          .card {
+            @include center;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+
+            h3 {
+              font-size: 1.5rem;
+              font-weight: 400;
+            }
+
+            .vid {
+              width: 100%;
+              aspect-ratio: 1.515/1;
+              background: #000;
+              overflow: hidden;
+              border-radius: 20px;
+              margin-bottom: 10px;
+
+              video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
         }
 
-        .vid {
-          width: 100%;
-          aspect-ratio: 1.515/1;
-          background: #000;
-          overflow: hidden;
-          border-radius: 20px;
-          margin-bottom: 10px;
+        .card-div-part2 {
+          @include center;
+          flex-direction: column;
+          gap: 1.5rem;
 
-          video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+          .card {
+            @include center;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+
+            h3 {
+              font-size: 1.5rem;
+              font-weight: 400;
+            }
+
+            .vid {
+              width: 100%;
+              aspect-ratio: 1.515/1;
+              background: #000;
+              overflow: hidden;
+              border-radius: 20px;
+              margin-bottom: 10px;
+
+              video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
           }
         }
       }

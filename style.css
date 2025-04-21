@@ -341,15 +341,21 @@ header nav .part3 {
   color: grey;
   font-size: 1.2rem;
 }
-.sec3 .sec3-container .sec3-part2 {
+.sec3 .sec3-container .sec3-part2 .sec3-cards {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.sec3 .sec3-container .sec3-part2 .card {
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,11 +363,11 @@ header nav .part3 {
   align-items: flex-start;
   gap: 0.5rem;
 }
-.sec3 .sec3-container .sec3-part2 .card h3 {
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card h3 {
   font-size: 1.5rem;
   font-weight: 400;
 }
-.sec3 .sec3-container .sec3-part2 .card .vid {
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card .vid {
   width: 100%;
   aspect-ratio: 1.515/1;
   background: #000;
@@ -369,7 +375,40 @@ header nav .part3 {
   border-radius: 20px;
   margin-bottom: 10px;
 }
-.sec3 .sec3-container .sec3-part2 .card .vid video {
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card .vid video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card .vid {
+  width: 100%;
+  aspect-ratio: 1.515/1;
+  background: #000;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card .vid video {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
