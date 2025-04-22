@@ -509,9 +509,9 @@ header {
   }
 }
 
-@media (min-width: 1024px){
-  main{
-    .sec3{
+@media (min-width: 1024px) {
+  main {
+    .sec3 {
       padding: 1rem 2.5rem;
     }
   }
@@ -530,17 +530,24 @@ header {
   .sec3 {
     .sec3-container {
       gap: 3rem;
-      .sec3-part1{
+      .sec3-part1 {
         width: 32%;
-        h2{
+        h2 {
           font-size: 3.5rem;
         }
-        p{
+        p {
           font-size: 1.4rem;
+          width: 95%;
         }
       }
       .sec3-part2 {
-        .sec3-cards{
+        .sec3-cards {
+          .card-div-part1 {
+            gap: 3rem;
+          }
+          .card-div-part2 {
+            gap: 3rem;
+          }
           gap: 3rem;
         }
         width: 68%;

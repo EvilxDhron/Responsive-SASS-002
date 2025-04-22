@@ -474,11 +474,18 @@ header nav .part3 {
   }
   .sec3 .sec3-container .sec3-part1 p {
     font-size: 1.4rem;
+    width: 95%;
   }
   .sec3 .sec3-container .sec3-part2 {
     width: 68%;
   }
   .sec3 .sec3-container .sec3-part2 .sec3-cards {
+    gap: 3rem;
+  }
+  .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 {
+    gap: 3rem;
+  }
+  .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 {
     gap: 3rem;
   }
   .sec3 .sec3-container .sec3-part2 .sec3-cards {
