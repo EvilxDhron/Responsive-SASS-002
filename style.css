@@ -508,6 +508,48 @@ header nav .part3 {
   height: 2px;
   background-color: #767575;
 }
+.sec4 .sec4-container .cont-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+.sec4 .sec4-container .cont-part1 .svg {
+  color: #989797;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.sec4 .sec4-container .cont-part1 p {
+  font-weight: 600;
+}
+.sec4 .sec4-container .cont-part1 h2 {
+  font-family: "Syne", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.sec4 .sec4-container .cont-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.sec4 .sec4-container .cont-part2 p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.sec4 .sec4-container .cont-part2 button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
 .sec4 .sec4-container .line2 {
   display: none;
 }
