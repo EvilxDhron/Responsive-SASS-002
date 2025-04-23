@@ -492,3 +492,22 @@ header nav .part3 {
     flex-direction: row;
   }
 }
+.sec4 {
+  width: 100%;
+  padding: 1rem 1.4rem;
+}
+.sec4 .sec4-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sec4 .sec4-container .line {
+  width: 100%;
+  height: 2px;
+  background-color: #767575;
+}
+.sec4 .sec4-container .line2 {
+  display: none;
+}
