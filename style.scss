@@ -678,7 +678,7 @@ header {
       flex-direction: row;
       padding: 2rem 0;
 
-      .line2{
+      .line2 {
         display: block;
         width: 2px;
         height: auto;
@@ -686,13 +686,13 @@ header {
         background-color: #000;
       }
 
-      .cont-part1{
+      .cont-part1 {
         justify-content: flex-start;
         height: 100%;
         width: 70%;
         position: relative;
 
-        .svg{
+        .svg {
           position: absolute;
           bottom: 0;
           margin: 0;
@@ -700,21 +700,79 @@ header {
           width: fit-content;
         }
 
-        h2{
+        h2 {
           font-size: 5.5rem;
           line-height: 1;
         }
-
       }
 
-      .cont-part2{
+      .cont-part2 {
         width: 30%;
         height: 100%;
         justify-content: space-between;
 
-        p{
+        p {
           display: inline-block;
         }
+      }
+    }
+  }
+
+  main {
+    header {
+      padding: 3vh 4vw;
+
+      nav {
+        .part1{
+          img{
+            width: 3rem;
+          }
+          h2{
+            font-size: 1.7rem;
+          }
+        }
+
+        .part3 {
+          .pt1 {
+            display: block;
+
+            ul {
+              gap: 1.2rem;
+            }
+
+            a {
+              font-size: 0.8rem;
+            }
+          }
+          .pt2 {
+            button {
+              font-size: 0.8rem;
+              margin-left: 1rem;
+            }
+          }
+          .pt3 {
+            .elem{
+              h2{
+                font-size: 0.8rem;
+                padding: 0.5rem 0.6rem;
+              }
+            }
+          }
+
+          .pt4{
+            img{
+              width: 3rem;
+            }
+          }
+        }
+      }
+    }
+
+    .Hero-section{
+      h1{
+        font-weight: 500;
+        font-size: 6.5vw;
+        letter-spacing: 5px;
       }
     }
   }
