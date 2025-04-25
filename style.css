@@ -422,7 +422,7 @@ header nav .part3 {
   background-color: black;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 810px) {
   .Hero-section {
     padding: 1.8rem;
   }
@@ -445,10 +445,16 @@ header nav .part3 {
   }
   .sec3 .sec3-container .sec3-part1 p {
     font-size: 1.4rem;
-    line-height: 1.3;
-    font-weight: 350;
+    line-height: 1.6;
+    font-weight: 400;
   }
-  .sec3 .line {
+  .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card h3 {
+    font-size: 1.8rem;
+  }
+  .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card h3 {
+    font-size: 1.8rem;
+  }
+  .line {
     width: 2px;
     height: auto;
     align-self: stretch;
@@ -552,4 +558,22 @@ header nav .part3 {
 }
 .sec4 .sec4-container .line2 {
   display: none;
+}
+
+@media (min-width: 810px) {
+  .sec4 {
+    padding: 1rem 2.4rem;
+  }
+  .sec4 .sec4-container .cont-part1 .svg {
+    margin-bottom: 3rem;
+  }
+  .sec4 .sec4-container .cont-part1 h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .sec4 .sec4-container .cont-part2 p {
+    font-size: 1.5rem;
+    color: #767575;
+  }
 }
