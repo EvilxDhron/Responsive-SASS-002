@@ -502,17 +502,17 @@ header nav .part3 {
   width: 100%;
   padding: 1rem 1.4rem;
 }
+.sec4 .line {
+  width: 100%;
+  height: 2px;
+  background-color: #767575;
+}
 .sec4 .sec4-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
-}
-.sec4 .sec4-container .line {
-  width: 100%;
-  height: 2px;
-  background-color: #767575;
 }
 .sec4 .sec4-container .cont-part1 {
   display: flex;
@@ -575,5 +575,51 @@ header nav .part3 {
   .sec4 .sec4-container .cont-part2 p {
     font-size: 1.5rem;
     color: #767575;
+  }
+}
+@media (min-width: 1199px) {
+  .sec4 {
+    padding: 2rem 2.8rem;
+    height: 85vh;
+  }
+  .sec4 .sec4-container {
+    gap: 3rem;
+    height: 100%;
+    flex-direction: row;
+    padding: 2rem 0;
+  }
+  .sec4 .sec4-container .line2 {
+    display: block;
+    width: 2px;
+    height: auto;
+    align-self: stretch;
+    background-color: #000;
+  }
+  .sec4 .sec4-container .cont-part1 {
+    justify-content: flex-start;
+    height: 100%;
+    width: 70%;
+    position: relative;
+  }
+  .sec4 .sec4-container .cont-part1 .svg {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .sec4 .sec4-container .cont-part1 h2 {
+    font-size: 5.5rem;
+    line-height: 1;
+  }
+  .sec4 .sec4-container .cont-part2 {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  .sec4 .sec4-container .cont-part2 p {
+    display: inline-block;
   }
 }
