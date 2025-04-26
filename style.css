@@ -657,3 +657,8 @@ header nav .part3 {
     letter-spacing: 5px;
   }
 }
+footer {
+  border-top: 2px solid black;
+  padding: 2rem 3rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
