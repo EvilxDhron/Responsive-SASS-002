@@ -899,15 +899,55 @@ footer {
         letter-spacing: 1px;
       }
     }
+  }
+}
 
-    .lastsec {
-      padding: 1.9rem 0;
-      padding-bottom: 1rem;
-      text-align: center;
+.lastsec {
+  padding: 1.9rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
 
-      p{
-      font-family: "Syne", sans-serif;
+  p {
+    font-family: "Syne", sans-serif;
+  }
+}
+
+@media (min-width: 810px) {
+  footer {
+    padding: 2rem 2.8rem;
+    height: 50vh;
+
+    .line {
+      margin-bottom: 3rem;
+    }
+
+    .foot-container {
+      @include center;
+      flex-grow: 1;
+      gap: 2.8rem;
+
+      .footcard {
+        width: 20%;
+      }
+
+      .footcard:nth-child(1) {
+        width: 40%;
+      }
+
+      .line {
+        width: 2px;
+        height: auto;
+        align-self: stretch;
+        display: none;
+      }
+
+      .line:nth-child(2) {
+        display: block;
       }
     }
+  }
+
+  .lastsec{
+    padding: 3rem 0;
   }
 }

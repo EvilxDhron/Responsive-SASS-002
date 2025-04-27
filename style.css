@@ -783,11 +783,47 @@ footer .foot-container .foot4 ul {
   font-size: 0.9rem;
   letter-spacing: 1px;
 }
-footer .foot-container .lastsec {
+
+.lastsec {
   padding: 1.9rem 0;
   padding-bottom: 1rem;
   text-align: center;
 }
-footer .foot-container .lastsec p {
+.lastsec p {
   font-family: "Syne", sans-serif;
+}
+
+@media (min-width: 810px) {
+  footer {
+    padding: 2rem 2.8rem;
+    height: 50vh;
+  }
+  footer .line {
+    margin-bottom: 3rem;
+  }
+  footer .foot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 2.8rem;
+  }
+  footer .foot-container .footcard {
+    width: 20%;
+  }
+  footer .foot-container .footcard:nth-child(1) {
+    width: 40%;
+  }
+  footer .foot-container .line {
+    width: 2px;
+    height: auto;
+    align-self: stretch;
+    display: none;
+  }
+  footer .foot-container .line:nth-child(2) {
+    display: block;
+  }
+  .lastsec {
+    padding: 3rem 0;
+  }
 }
