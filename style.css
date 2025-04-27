@@ -198,9 +198,8 @@ header nav .part3 {
 }
 .sec2 .secpart1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 1.5rem;
 }
@@ -237,9 +236,8 @@ header nav .part3 {
 }
 .sec2 .secpart2 .elem {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 0.8rem;
   align-self: flex-start;
@@ -317,17 +315,15 @@ header nav .part3 {
 }
 .sec3 .sec3-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 2rem;
 }
 .sec3 .sec3-container .sec3-part1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
 }
 .sec3 .sec3-container .sec3-part1 h2 {
@@ -351,9 +347,9 @@ header nav .part3 {
 }
 .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   gap: 1.5rem;
 }
 .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card {
@@ -384,16 +380,15 @@ header nav .part3 {
 }
 .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   gap: 1.5rem;
 }
 .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 0.5rem;
 }
@@ -509,18 +504,17 @@ header nav .part3 {
 }
 .sec4 .sec4-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   gap: 1.5rem;
 }
 .sec4 .sec4-container .cont-part1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  gap: 0.8rem;
+  justify-content: center;
   align-items: flex-start;
+  gap: 0.8rem;
 }
 .sec4 .sec4-container .cont-part1 .svg {
   color: #989797;
@@ -537,9 +531,8 @@ header nav .part3 {
 }
 .sec4 .sec4-container .cont-part2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 3rem;
 }
@@ -658,7 +651,143 @@ header nav .part3 {
   }
 }
 footer {
-  border-top: 2px solid black;
-  padding: 2rem 3rem;
+  padding: 1rem 1.4rem;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+footer .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(141, 140, 140);
+}
+footer .foot-container .footcard {
+  padding: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+footer .foot-container .footcard .part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+footer .foot-container .footcard .part1 h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+footer .foot-container .footcard .part1 img {
+  display: inline-block;
+  width: 40px;
+}
+footer .foot-container .footcard .part2 {
+  text-align: justify;
+  line-height: 1.4;
+}
+footer .foot-container .footcard .part2 p {
+  font-size: 1rem;
+  word-spacing: 2px;
+  color: #767575;
+}
+footer .foot-container .footcard .part3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+footer .foot-container .footcard .part3 .elem {
+  padding-top: 2rem;
+}
+footer .foot-container .footcard .part3 .elem h2 {
+  font-size: 0.8rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+footer .foot-container .foot2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+footer .foot-container .foot2 h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+footer .foot-container .foot2 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.4rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+footer .foot-container .foot2 button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+footer .foot-container .foot3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+footer .foot-container .foot3 h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+footer .foot-container .foot3 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.4rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+footer .foot-container .foot4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+footer .foot-container .foot4 h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+footer .foot-container .foot4 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.4rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+footer .foot-container .lastsec {
+  padding: 1.9rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+footer .foot-container .lastsec p {
+  font-family: "Syne", sans-serif;
+}

@@ -27,6 +27,13 @@ body {
   justify-content: center;
 }
 
+@mixin col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 main {
   border: 2px solid black;
 
@@ -235,9 +242,7 @@ header {
   gap: 2rem;
 
   .secpart1 {
-    @include center;
-    flex-direction: column;
-    align-items: flex-start;
+    @include col-center;
     gap: 1.5rem;
 
     p {
@@ -275,9 +280,7 @@ header {
     gap: 2rem;
 
     .elem {
-      @include center;
-      flex-direction: column;
-      align-items: flex-start;
+      @include col-center;
       gap: 0.8rem;
       align-self: flex-start;
       // padding: 0 0.8rem;
@@ -318,6 +321,7 @@ header {
     flex-direction: row;
     align-items: flex-start;
     padding: 2.5rem 0;
+
     .secpart1 {
       height: auto;
       align-self: stretch;
@@ -368,15 +372,11 @@ header {
   padding: 1rem 1.4rem;
 
   .sec3-container {
-    @include center;
-    flex-direction: column;
-    align-items: flex-start;
+    @include col-center;
     gap: 2rem;
 
     .sec3-part1 {
-      @include center;
-      flex-direction: column;
-      align-items: flex-start;
+      @include col-center;
 
       h2 {
         font-family: "Syne", sans-serif;
@@ -399,8 +399,8 @@ header {
         gap: 1.5rem;
 
         .card-div-part1 {
-          @include center;
-          flex-direction: column;
+          @include col-center;
+          // flex-direction: column;
           gap: 1.5rem;
 
           .card {
@@ -432,14 +432,12 @@ header {
         }
 
         .card-div-part2 {
-          @include center;
-          flex-direction: column;
+          @include col-center;
+          // flex-direction: column;
           gap: 1.5rem;
 
           .card {
-            @include center;
-            flex-direction: column;
-            align-items: flex-start;
+            @include col-center;
             gap: 0.5rem;
 
             h3 {
@@ -588,15 +586,12 @@ header {
     background-color: #767575;
   }
   .sec4-container {
-    @include center;
-    flex-direction: column;
+    @include col-center;
     gap: 1.5rem;
 
     .cont-part1 {
-      @include center;
-      flex-direction: column;
+      @include col-center;
       gap: 0.8rem;
-      align-items: flex-start;
 
       .svg {
         color: #989797;
@@ -616,9 +611,7 @@ header {
     }
 
     .cont-part2 {
-      @include center;
-      flex-direction: column;
-      align-items: flex-start;
+      @include col-center;
       gap: 3rem;
 
       p {
@@ -723,11 +716,11 @@ header {
       padding: 3vh 4vw;
 
       nav {
-        .part1{
-          img{
+        .part1 {
+          img {
             width: 3rem;
           }
-          h2{
+          h2 {
             font-size: 1.7rem;
           }
         }
@@ -751,16 +744,16 @@ header {
             }
           }
           .pt3 {
-            .elem{
-              h2{
+            .elem {
+              h2 {
                 font-size: 0.8rem;
                 padding: 0.5rem 0.6rem;
               }
             }
           }
 
-          .pt4{
-            img{
+          .pt4 {
+            img {
               width: 3rem;
             }
           }
@@ -768,8 +761,8 @@ header {
       }
     }
 
-    .Hero-section{
-      h1{
+    .Hero-section {
+      h1 {
         font-weight: 500;
         font-size: 6.5vw;
         letter-spacing: 5px;
@@ -778,8 +771,143 @@ header {
   }
 }
 
-footer{
-  border-top: 2px solid black;
-  padding: 2rem 3rem;
+footer {
+  padding: 1rem 1.4rem;
   text-align: center;
+
+  .line {
+    // margin-bottom: 1.7rem;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(141, 140, 140);
+  }
+
+  .foot-container {
+    .footcard {
+      padding: 1.8rem 0;
+      @include col-center;
+      gap: 1rem;
+
+      .part1 {
+        @include center;
+        gap: 10px;
+
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+
+        img {
+          display: inline-block;
+          width: 40px;
+        }
+      }
+
+      .part2 {
+        text-align: justify;
+        line-height: 1.4;
+
+        p {
+          font-size: 1rem;
+          word-spacing: 2px;
+          color: #767575;
+        }
+      }
+
+      .part3 {
+        @include center;
+        gap: 0.6rem;
+
+        .elem {
+          padding-top: 2rem;
+          h2 {
+            font-size: 0.8rem;
+            padding: 0.8rem 0.9rem;
+            border-radius: 50%;
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+
+    .foot2 {
+      @include col-center;
+      gap: 2rem;
+
+      h2 {
+        font-family: "Syne", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+
+      ul {
+        @include col-center;
+        gap: 1.4rem;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: #000;
+        border: none;
+        border-radius: 8px;
+        text-transform: uppercase;
+      }
+    }
+
+    .foot3 {
+      @include col-center;
+      gap: 2rem;
+
+      h2 {
+        font-family: "Syne", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+
+      ul {
+        @include col-center;
+        gap: 1.4rem;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+      }
+    }
+
+    .foot4 {
+      @include col-center;
+      gap: 2rem;
+
+      h2 {
+        font-family: "Syne", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+
+      ul {
+        @include col-center;
+        gap: 1.4rem;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+      }
+    }
+
+    .lastsec {
+      padding: 1.9rem 0;
+      padding-bottom: 1rem;
+      text-align: center;
+
+      p{
+      font-family: "Syne", sans-serif;
+      }
+    }
+  }
 }
