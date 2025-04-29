@@ -825,6 +825,7 @@ footer .foot-container .foot4 ul {
   }
   .lastsec {
     padding: 3rem 0;
+    text-align: center;
   }
 }
 @media (min-width: 1399px) {
