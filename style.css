@@ -796,7 +796,7 @@ footer .foot-container .foot4 ul {
 @media (min-width: 810px) {
   footer {
     padding: 2rem 2.8rem;
-    height: 50vh;
+    height: 40dvh;
   }
   footer .line {
     margin-bottom: 3rem;
@@ -825,5 +825,123 @@ footer .foot-container .foot4 ul {
   }
   .lastsec {
     padding: 3rem 0;
+  }
+}
+@media (min-width: 1399px) {
+  main .Hero-section {
+    padding: 3vh 4vw;
+  }
+  main .sec3 {
+    padding: 4vh 4vw;
+  }
+  main .sec4 {
+    padding: 4vh 4vw;
+  }
+  main footer {
+    padding: 3vh 4vw;
+  }
+}
+@media (min-width: 1599px) {
+  main header nav .part1 img {
+    width: 3rem;
+  }
+  main header nav .part1 h2 {
+    font-size: 2.1vw;
+  }
+  main header nav .part3 .pt1 {
+    display: block;
+  }
+  main header nav .part3 .pt1 ul {
+    gap: 2vw;
+  }
+  main header nav .part3 .pt1 a {
+    font-size: 0.9vw;
+  }
+  main header nav .part3 .pt2 button {
+    font-size: 0.9vw;
+    margin-left: 1.5vw;
+    padding: 0.8rem 1.8rem;
+  }
+  main header nav .part3 .pt3 .elem h2 {
+    font-size: 0.9vw;
+    padding: 0.5rem 0.6rem;
+  }
+  main header nav .part3 .pt4 img {
+    width: 3.5vw;
+  }
+  main .Hero-section h3 {
+    font-size: 1.2vw;
+  }
+  main .sec2 .secpart1 h1 {
+    font-size: 5vw;
+  }
+  main .sec2 .secpart1 p {
+    font-size: 1.2vw;
+  }
+  main .sec2 .secpart1 button {
+    font-size: 0.9vw;
+    padding: 0.8rem 1.8rem;
+  }
+  main .sec2 .secpart2 .elem i {
+    font-size: 5vw;
+  }
+  main .sec2 .secpart2 .elem h2 {
+    font-size: 2.5vw;
+  }
+  main .sec2 .secpart2 .elem p {
+    font-size: 1.5vw;
+  }
+  main .sec3 .sec3-container .sec3-part1 h2 {
+    font-size: 4vw;
+  }
+  main .sec3 .sec3-container .sec3-part1 p {
+    font-size: 1.5vw;
+  }
+  main .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card h3 {
+    font-size: 2vw;
+  }
+  main .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part1 .card p {
+    font-size: 1vw;
+  }
+  main .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card h3 {
+    font-size: 2vw;
+  }
+  main .sec3 .sec3-container .sec3-part2 .sec3-cards .card-div-part2 .card p {
+    font-size: 1vw;
+  }
+  main .sec4 .line {
+    margin-bottom: 4vw;
+  }
+  main .sec4 .sec4-container .cont-part1 .svg i {
+    font-size: 7vw;
+  }
+  main .sec4 .sec4-container .cont-part1 p {
+    font-size: 1.5vw;
+  }
+  main .sec4 .sec4-container .cont-part1 h2 {
+    font-size: 6vw;
+  }
+  main .sec4 .sec4-container .cont-part2 p {
+    font-size: 1.5vw;
+  }
+  main .sec4 .sec4-container .cont-part2 button {
+    font-size: 0.9vw;
+    padding: 0.8rem 1.8rem;
+  }
+  main footer {
+    padding: 4vw 4vw;
+  }
+  main footer .foot-container .footcard h2 {
+    font-size: 2vw;
+  }
+  main footer .foot-container .footcard li {
+    font-size: 1vw;
+  }
+  main footer .foot-container .footcard .part2 p {
+    font-size: 1vw;
+  }
+  main footer .foot-container .footcard button {
+    font-size: 0.9vw;
+    padding: 0.8rem 1.8rem;
   }
 }/*# sourceMappingURL=style.css.map */
