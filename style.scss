@@ -947,36 +947,36 @@ footer {
     }
   }
 
-  .lastsec{
+  .lastsec {
     padding: 3rem 0;
     text-align: center;
   }
 }
 
 @media (min-width: 1399px) {
-  main{
-    .Hero-section{
+  main {
+    .Hero-section {
       padding: 3vh 4vw;
     }
 
-    .sec3{
+    .sec3 {
       padding: 4vh 4vw;
     }
 
-    .sec4{
+    .sec4 {
       padding: 4vh 4vw;
     }
 
-    footer{
+    footer {
       padding: 3vh 4vw;
     }
   }
 }
 
 @media (min-width: 1599px) {
-  main{
-    header{
-      nav{
+  main {
+    header {
+      nav {
         .part1 {
           img {
             width: 3rem;
@@ -1023,70 +1023,70 @@ footer {
       }
     }
 
-    .Hero-section{
-      h3{
+    .Hero-section {
+      h3 {
         font-size: 1.2vw;
       }
     }
 
-    .sec2{
-      .secpart1{
-        h1{
+    .sec2 {
+      .secpart1 {
+        h1 {
           font-size: 5vw;
         }
-        p{
-        font-size: 1.2vw;
+        p {
+          font-size: 1.2vw;
         }
         button {
           font-size: 0.9vw;
           padding: 0.8rem 1.8rem;
         }
       }
-      
-      .secpart2{
-        .elem{
-          i{
+
+      .secpart2 {
+        .elem {
+          i {
             font-size: 5vw;
           }
-          h2{
+          h2 {
             font-size: 2.5vw;
           }
-          p{
+          p {
             font-size: 1.5vw;
           }
         }
       }
     }
 
-    .sec3{
-      .sec3-container{
-        .sec3-part1{
-          h2{
+    .sec3 {
+      .sec3-container {
+        .sec3-part1 {
+          h2 {
             font-size: 4vw;
           }
-          p{
+          p {
             font-size: 1.5vw;
           }
         }
 
-        .sec3-part2{
-          .sec3-cards{
-            .card-div-part1{
-              .card{
-                h3{
+        .sec3-part2 {
+          .sec3-cards {
+            .card-div-part1 {
+              .card {
+                h3 {
                   font-size: 2vw;
                 }
-                p{
+                p {
                   font-size: 1vw;
                 }
               }
             }
-            .card-div-part2{
-              .card{
-                h3{
+            .card-div-part2 {
+              .card {
+                h3 {
                   font-size: 2vw;
                 }
-                p{
+                p {
                   font-size: 1vw;
                 }
               }
@@ -1096,27 +1096,27 @@ footer {
       }
     }
 
-    .sec4{
-      .line{
+    .sec4 {
+      .line {
         margin-bottom: 4vw;
       }
-      .sec4-container{
-        .cont-part1{
-          .svg{
-            i{
+      .sec4-container {
+        .cont-part1 {
+          .svg {
+            i {
               font-size: 7vw;
             }
           }
-          p{
+          p {
             font-size: 1.5vw;
           }
-          h2{
+          h2 {
             font-size: 6vw;
           }
         }
 
-        .cont-part2{
-          p{
+        .cont-part2 {
+          p {
             font-size: 1.5vw;
           }
           button {
@@ -1127,20 +1127,20 @@ footer {
       }
     }
 
-    footer{
+    footer {
       padding: 4vw 4vw;
 
-      .foot-container{
-        .footcard{
-          h2{
+      .foot-container {
+        .footcard {
+          h2 {
             font-size: 2vw;
           }
-          li{
+          li {
             font-size: 1vw;
           }
-          
-          .part2{
-            p{
+
+          .part2 {
+            p {
               font-size: 1vw;
             }
           }
